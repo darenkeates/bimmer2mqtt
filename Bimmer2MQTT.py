@@ -17,8 +17,8 @@ from bimmer_connected.api.regions import Regions
 from bimmer_connected.vehicle import VehicleViewDirection
 
 ### Replace the following variables with values of your choice
-TOPIC = "Mobility/CarName/"
-MQTT_SERVER = "192.168.0.1"
+TOPIC = "Mobility/MW25ABN/"
+MQTT_SERVER = "192.168.1.245"
 MQTT_PORT = 1883
 REGION = Regions.REST_OF_WORLD
 
