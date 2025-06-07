@@ -18,9 +18,9 @@ from bimmer_connected.vehicle import VehicleViewDirection
 
 ### Replace the following variables with values of your choice
 TOPIC = "Mobility/MW25ABN/"
-MQTT_SERVER = "192.168.1.245"
+MQTT_SERVER = "192.168.1.2"
 MQTT_PORT = 1883
-REGION = Regions.REST_OF_WORLD
+REGION = Regions.rest_of_world
 
 logging.basicConfig(
     format='%(asctime)s %(levelname)-8s %(message)s',
